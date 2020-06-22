@@ -10,7 +10,7 @@ public class Reverse_Message extends Transposition {
 	
 	public void code(String password) {
 		StringBuffer newpassword = new StringBuffer();
-		for(int i = password.length()-1; i > 0;i--) {
+		for(int i = password.length()-1; i >= 0;i--) {
 			newpassword.append(password.charAt(i));
 			
 		}
